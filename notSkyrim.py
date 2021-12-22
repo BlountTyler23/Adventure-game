@@ -88,13 +88,13 @@ if second.lower() == "1":
             exit()
 
 if second.lower() == "2":
-        print("You sneak into the capitial and stand before a group of people. You yell out by the gods our king is to corrupt lead the people of the lower class and the people in general. Rally behind me and behind this sword. as you stick Sting skywarrd.")
+        print("You sneak into the capitial and stand before a group of people. You yell out by the gods our king is to corrupt to lead the people of the lower class and the people in general. Rally behind me and behind this sword. As you stick Sting skywarrd.")
         roll = random.randrange(0, c)
         roll2 = random.randrange(0, h)
         if roll > 75 and roll2 < 5:
             print("The people rally behind you weapons in hand. Joined by many gaurds you over power the capital's loyalist.")
         else:
-            print("Not swayed the people boo. Quickly the guards arrest you. ater three years in the dungeon you are beheaded")
+            print("Not swayed, the people boo. Quickly the guards arrest you. Ater three years in the dungeon you are beheaded")
             exit()
 
 if second.lower() == "3":
