@@ -101,7 +101,7 @@ if second.lower() == "3":
         print("You try to make you across the magical echanted boarder.")
         roll = random.randrange(0, s)
         roll2 = random.randrange(0, m)
-        roll2 = random.randrange(0, c)
+        roll3 = random.randrange(0, c)
         if roll > 85 and roll2 > 90 and roll3 > 30:
             print("You use disenchant spell dispelling the border wall and flee to the Northerns. The Northerns catch you but notice your carrying the lengdary sword, using quick words you meet with their king who allows you lead troops into the up coming battle.")
         
